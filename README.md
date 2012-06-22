@@ -12,4 +12,4 @@ Statamic Textmate/Sublime Text 2 Bundle
 3. Restart Sublime Text 2.
 4. Enjoy.
 
-### Note: This is still in development, and has a few kinks to work out. Feel free to fork the repo, tweak it, and make pull requests with your own improvements. The kanguage/highlight syntax isn't super friendly in Sublime yet.
+### Note: This is still in development, and has a few kinks to work out. Feel free to fork the repo, tweak it, and make pull requests with your own improvements. The language/highlight syntax isn't super friendly in Sublime yet.
