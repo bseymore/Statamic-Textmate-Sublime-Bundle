@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ entries:listing folder="${1:dir}" show_future="${2:no}" show_past="${3:yes}" sort_by="${4:date}" sort_dir="${5:desc}" paged="${6:no}" limit="${7:x}" offset="${8:0}" conditions="${9:field}:${10:match}" }}
+	${12:$TM_SELECTED_TEXT}
+{{ /entries:listing }}</string>
+	<key>name</key>
+	<string>entries:listing</string>
+	<key>scope</key>
+	<string>text.html.statamic</string>
+	<key>tabTrigger</key>
+	<string>entries</string>
+	<key>uuid</key>
+	<string>7D9577EC-7915-4C22-B6BF-951F063CFC69</string>
+</dict>
+</plist>

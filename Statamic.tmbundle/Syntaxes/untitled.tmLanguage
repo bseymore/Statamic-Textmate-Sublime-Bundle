@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>md</string>
+		<string>textile</string>
+		<string>html</string>
+		<string>php</string>
+		<string>txt</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>(?x)
+		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\b.*?&gt;
+		|&lt;!--(?!.*--&gt;)
+		|\{\s*($|\?&gt;\s*$|//|/\*(.*\*/\s*$|(?!.*?\*/)))
+		)</string>
+	<key>foldingStopMarker</key>
+	<string>(?x)
+		(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)&gt;
+		|^\s*--&gt;
+		|(^|\s)\}
+		)</string>
+	<key>name</key>
+	<string>Statamic</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\{\{[{&lt;&gt;#/]?</string>
+			<key>end</key>
+			<string>\#?\}\}</string>
+			<key>name</key>
+			<string>comment.block.statamic</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\{\{[{&lt;&gt;#/]?</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.tag.statamic</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\}?\}\}</string>
+			<key>name</key>
+			<string>source.statamic.embedded.html</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.statamic</string>
+	<key>uuid</key>
+	<string>DF9339D0-9813-4F43-92EE-FA63A6C1E6F9</string>
+</dict>
+</plist>

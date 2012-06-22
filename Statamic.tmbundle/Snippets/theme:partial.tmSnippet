@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ theme:partial src="${1:file}" ${2:var}="${3:value}" }}</string>
+	<key>name</key>
+	<string>theme:partial</string>
+	<key>scope</key>
+	<string>text.html.statamic</string>
+	<key>tabTrigger</key>
+	<string>theme</string>
+	<key>uuid</key>
+	<string>CBEDDC07-7711-438A-AB3A-E2759CE8881B</string>
+</dict>
+</plist>

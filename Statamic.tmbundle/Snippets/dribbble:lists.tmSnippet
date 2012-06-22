@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{ dribbble:lists list="${1:everyone}" }}
+${2:$TM_SELECTED_TEXT}
+{{ /dribbble:lists }}</string>
+	<key>name</key>
+	<string>dribbble:lists</string>
+	<key>scope</key>
+	<string>text.html.statamic</string>
+	<key>tabTrigger</key>
+	<string>dribbble</string>
+	<key>uuid</key>
+	<string>F041170C-FBF2-45A6-A669-A299BED7C2AC</string>
+</dict>
+</plist>

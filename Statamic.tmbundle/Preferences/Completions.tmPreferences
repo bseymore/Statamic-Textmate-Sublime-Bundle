@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Completions</string>
+	<key>scope</key>
+	<string>text.html.statamic</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>site_name</string>
+			<string>twitter_url</string>
+			<string>site_root</string>
+			<string>page_url</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>F2595636-9079-4D4D-A6B1-A354418E3DD2</string>
+</dict>
+</plist>
